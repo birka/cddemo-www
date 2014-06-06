@@ -30,7 +30,7 @@
 <div class="container">
     <div class="page-header">
       <h1>CD Demo VM</h1>
-      <h3>Version 1.0.45 - <a href="#" >Heise Developer</a> Artikelserie Continuous Delivery Teil 2</h3>
+      <h3>Version 1.0.45 - <a href="http://www.heise.de/developer/">Heise Developer</a> Artikelserie Continuous Delivery Teil 2</h3>
     </div>
       <!-- Example row of columns -->
       <div class="row">
@@ -44,24 +44,24 @@
         <div class="col-md-6">
           <h2>MusicDB - das Java JEE Beispielprojekt</h2>
           <p>Der Sourcecode des Beispielprojekts "MusicDB" liegt ausgecheckt im Eclipse Workspace des angemeldeten Benutzers. Wenn Sie die IDE (Klick auf Icon <img src="img/eclipse.png">) starten, können Sie den Sourcecode editieren, die Unittests in der IDE laufen lassen, Änderungen ins "zentrale" Git Repository pushen und die Anwendung selbst in einen lokalen Tomcat deployen. Die Anwendung selbst erreichen Sie dann unter <a href="http://localhost:8080/musicDB/" target="_blank">MusicDB</a></p>
-	  <p><a class="btn btn-default" href="http://localhost:8080/musicDB/" role="button">MusicDB »</a></p>
+	  <p><a class="btn btn-default" href="http://localhost:8080/musicDB/" role="button" target=_blank">MusicDB »</a></p>
         </div>
         <div class="col-md-6">
           <h2>Zentrales Versionskontrollsystem</h2>
           <p>Continuous Delivery Pipelines verwenden immer (mindestens) ein zentrales Sourcecode Repository. Wir haben ein einfaches Git Repository in das Dateisystem gelegt: /srv/git-repo. Mit <a href="http://localhost/git/?p=cd-workshop-heise.git;a=summary" target="_blank">Gitweb</a> können Sie komfortabel durch die Inhalte dieses Repositories browsen.</p>
-          <p><a class="btn btn-default" href="http://localhost/git/?p=cd-workshop-heise.git;a=summary" role="button">Git Repo »</a></p>
+          <p><a class="btn btn-default" href="http://localhost/git/?p=cd-workshop-heise.git;a=summary" role="button" target=_blank">Git Repo »</a></p>
 	</div>
       </div>
       <div class="row">
         <div class="col-md-6">
           <h2>CI-Server Jenkins</h2>
           <p>Unter <a href="http://localhost:9080/" target="_blank">Jenkins</a> finden Sie eine vorkonfigurierte Instanz des CI-Servers Jenkins. Alle nötigen Plugins sind installiert. Sie können also sofort die im Artikel beschriebenen Schritte zur Erstellung der diversen Jobs nachvollziehen.</p>
-          <p><a class="btn btn-default" href="http://localhost:9080/" role="button">Jenkins »</a></p>
+          <p><a class="btn btn-default" href="http://localhost:9080/" role="button" target=_blank">Jenkins »</a></p>
         </div>
         <div class="col-md-6">
           <h2>Bundle Repository</h2>
-          <p>Alle von der Pipeline erzeugten Binär-Artefakte werden in einem einfachen lokalen Repository abgelegt. Es handelt sich um eine simple Orderstruktur im Dateisystem unter /data/repo/bundles. Als einfache WebUI zum <a href="http://localhost/repo/" target="_blank">Repository</a> dient ein Apache Webserver.</p>
-          <p><a class="btn btn-default" href="http://localhost/repo/" role="button">Bundlerepo »</a></p>
+          <p>Alle von der Pipeline erzeugten Binär-Artefakte werden in einem einfachen lokalen Repository abgelegt. Es handelt sich um eine simple Orderstruktur im Dateisystem unter /data/repo. Als einfache WebUI zum <a href="http://localhost/repo/" target="_blank">Repository</a> dient ein Apache Webserver.</p>
+          <p><a class="btn btn-default" href="http://localhost/repo/" role="button" target=_blank">Bundlerepo »</a></p>
 	</div>
       </div>
     </div>
